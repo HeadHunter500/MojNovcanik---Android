@@ -1,0 +1,69 @@
+<resources>
+    <string name="app_name">Moj Novčanik</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_registracija">Registracija</string>
+    <string name="title_activity_info">Info</string>
+
+
+
+    //stringovi za informacije
+
+    <string name="imeAplikacije">Ime Aplikacije: Moj Novčanik</string>
+
+    <string name="izradio">Izradio: Matko Horvat</string>
+
+    <string name="opisAplikacije">Aplikacija "Moj Novčanik" je android mobilna aplikacija izrađena u programskom
+    jeziku Java. Nastala je po uzoru na desktop aplikaciju "Moj Novčanik" koja je nastala 2014. godine kao završni zadatak kolegija
+    Objektno Orijentirano Programiranje 2. Svrha ove aplikacije je vođenje vlastitog budžeta kako bi imali detaljan uvid
+    u svoje troškove.</string>
+
+    <string name="gumbZaZatvaranje">Zatvori</string>
+
+    //string za poruku ako nema internet konekcije
+
+    <string name="nemaInterneta">Aplikacija zahtijeva omogućenu internet konekciju</string>
+    <string name="title_activity_iznos">Iznos</string>
+
+    <string name="neuspjelaPrijava">Prijava nije uspjela</string>
+
+    <string name="kriviPodaci">Pogrešno korisniško ime i/ili lozinka</string>
+
+    <string name="uspjesnaReg">Uspješno ste se registrirali</string>
+   <string name="neuspjesnaReg">Došlo je do pogreške prilikom registracije, pokušajte ponovno</string>
+    <string name="usernamePostoji">Željeno korisničko ime već postoji</string>
+
+    <string name="kriviIznos">Iznos se mora sastojati od samo brojeva!</string>
+
+    <string name="uspjesnaUplata">Uspješno ste uplatili iznos</string>
+    <string name="neuspjesnaUplata">Došlo je do pogreške prilikom uplate</string>
+
+    <string name="uspjesnaIsplata">Uspješno ste isplatili iznos</string>
+    <string name="neuspjesnaIsplata">Došlo je do pogreške prilikom isplate</string>
+
+
+    <string name="nemaUplata">Trenutno nema uplata za prikazati</string>
+    <string name="nemaIsplata">Trenutno nema isplata za prikazati</string>
+
+
+//ZA LOGIN MOŽDA POSLUŽI
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="title_activity_popis_uplata">Popis Uplata</string>
+    <string name="title_activity_popis_isplata">Popis Isplata</string>
+    <string name="title_activity_uplata">Uplata</string>
+    <string name="title_activity_isplata">Isplata</string>
+// KRAJ
+
+</resources>

@@ -1,0 +1,42 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="#b6a1a3aa"
+    tools:context="com.example.matko.mojnovcanik.Iznos">
+
+    //Tekst Stanje Novčanika:
+    <TextView android:text="Stanje Novčanika:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:id="@+id/stanje"
+        android:layout_marginTop="69dp"
+        android:layout_below="@+id/korisnik"
+        android:layout_centerHorizontal="true" />
+
+    //Prikaz  iznosa
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="0 kn"
+        android:id="@+id/iznos"
+        android:layout_marginTop="45dp"
+        android:textSize="65dp"
+        android:layout_below="@+id/stanje"
+        android:layout_centerHorizontal="true" />
+
+    //pozdravna poruka i ime korisnika
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Dobrodošao Korisnik"
+        android:id="@+id/korisnik"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

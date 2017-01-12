@@ -1,0 +1,93 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity"
+    android:background="#b6a1a3aa"
+    android:id="@+id/pozadina">
+
+    // Naslov Dobrodošli
+
+    <TextView android:text="Dobrodošli!" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:id="@+id/dobrodosliLog"
+        android:layout_below="@+id/logo"
+        android:layout_centerHorizontal="true" />
+
+    //slika logo-a
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/logo"
+        android:src="@mipmap/logo"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    //polje za korisničko ime
+
+    <EditText
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:ems="10"
+    android:id="@+id/usernameLog"
+    android:hint="Korisničko ime"
+    android:layout_below="@+id/dobrodosliLog"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="23dp" />
+
+    //polje za lozinku
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/lozinkaLog"
+        android:hint="Lozinka"
+        android:layout_below="@+id/dobrodosliLog"
+        android:layout_alignLeft="@+id/usernameLog"
+        android:layout_alignStart="@+id/usernameLog"
+        android:layout_marginTop="93dp" />
+
+    //gumb za prijavu
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Prijava"
+        android:id="@+id/gumbLogin"
+        android:layout_marginTop="43dp"
+        android:onClick="Prijava"
+        android:layout_below="@+id/lozinkaLog"
+        android:layout_centerHorizontal="true" />
+
+    //gumb za registraciju
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Registracija"
+        android:id="@+id/gumbRegistracija"
+        android:onClick="OdiNaReg"
+        android:layout_below="@+id/gumbLogin"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="36dp" />
+
+    //gumb za info o aplikaciju
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Info"
+        android:id="@+id/info"
+        android:onClick="OdiNaInfo"
+        android:layout_alignBottom="@+id/gumbRegistracija"
+        android:layout_toRightOf="@+id/lozinkaLog"
+        android:layout_toEndOf="@+id/lozinkaLog" />
+
+
+</RelativeLayout>
